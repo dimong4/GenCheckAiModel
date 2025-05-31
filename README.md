@@ -1,7 +1,7 @@
 # GenCheckAiModel
 ML часть проекта на "Большие вызовы"
 
-[Демо проекта](https://github.com/dima0409/GenCheckAIBot)
+[Демо проекта(репозиторий)](https://github.com/dima0409/GenCheckAIBot)
 
 Проект подготовлен с использованием изображений, сгенерированных моделью Yandex Art в приложении Шедеврум.  
 Изображения предоставлены исключительно для исследовательских целей данного проекта выпускнику Яндекс Лицея и не предназначены для публичного использования
@@ -11,6 +11,18 @@ ML часть проекта на "Большие вызовы"
 
 ## Необходимое ПО
 [Python 3.12](https://www.python.org/downloads)
+
+
+## О моделях и точности
+В проекте для классификации изображений использовались модели на основе архитектур ResNet50 и Swin Transformer (Swin-T).
+
+### Графики ResNet50
+![accs.png](other/accs.png)
+![losses.png](other/losses.png)
+
+### Графики Swin-T
+![accs_swin.png](other/accs_swin.png)
+![losses_swin.png](other/losses_swin.png)
 
 ## Установка
 
